@@ -1,7 +1,7 @@
 tasks:
   - init: npm install
     command: npm start
-    openMode: tab-before
+    openMode: split-right
 
 ports:
   - port: 3000
