@@ -8,3 +8,8 @@ tasks:
 ports:
   - port: 3000
     onOpen: open-preview
+
+vscode:
+  extensions:
+    - burkeholland.simple-react-snippets@1.2.2:aB/gV0ExPn8v6vEZNUjoWA==
+    - esbenp.prettier-vscode@4.0.0:xsAq4L0PbQlPoZEL0/LFMA==
