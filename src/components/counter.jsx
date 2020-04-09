@@ -49,6 +49,7 @@ class Counter extends Component {
   };
   formatCounter() {
     const { value } = this.state;
+
     return value === 0 ? "zero" : value;
   }
 }
