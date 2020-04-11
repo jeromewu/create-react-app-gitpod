@@ -1,4 +1,5 @@
-import React, { Component } from "react";
+import React, { Component } from "react"; // NAMED EXPORT NEED TO EXPORT ONLY WITH THE GIVEN NAME
+
 
 class Counter extends Component {
   //   state = {

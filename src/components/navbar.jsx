@@ -1,5 +1,5 @@
-import React  from "react";
-class Navbar extends React.Component {
+import React, {Component as navabarCom}  from "react";
+class Navbar extends navabarCom {
   //state = {  }
   // stateless functional component
   render() {
