@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Counterssss from "./counter"; // default export any name can be given
+import Counter from "./counter"; // default export any name can be given
 
 class Counters extends Component {
 //   state = {
@@ -45,7 +45,7 @@ class Counters extends Component {
           Reset
         </button>
         {this.props.counters.map((counter) => (
-          <Counterssss             
+          <Counter             
             onDelete={this.props.onDelete}
             onIncrement={this.props.onIncrement}
             counter={counter}

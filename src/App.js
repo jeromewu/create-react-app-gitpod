@@ -5,7 +5,7 @@ import Navbar from "./components/navbar";
 import Counters from "./components/counters";
 
 class App extends Component {
-      state = {
+  state = {
     counters: [
       { id: 1, value: 0 },
       { id: 2, value: 9 },
@@ -35,10 +35,16 @@ class App extends Component {
   render() {
     return (
       <React.Fragment>
-        <Navbar totalCounters = {this.state.counters.filter(c => c.value > 0).length} />
+        <Navbar
+          totalCounters={this.state.counters.filter((c) => c.value > 0).length}
+        />
         <main className="container">
-          <Counters counters={this.state.counters} onReset={this.handleReset} onIncrement={this.handleIncrement} 
-          onDelete={this.handleDelete} />
+          <Counters
+            counters={this.state.counters}
+            onReset={this.handleReset}
+            onIncrement={this.handleIncrement}
+            onDelete={this.handleDelete}
+          />
         </main>
       </React.Fragment>
     );
