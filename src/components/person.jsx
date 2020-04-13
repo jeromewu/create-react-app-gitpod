@@ -28,3 +28,9 @@ export const PersonTest = (props) => {
 
 // state compoent
 // stateless component
+
+// radium for pseudo elelemnt
+// styleRoot for media queries
+// styled componenets
+// css modules
+// error boundary
