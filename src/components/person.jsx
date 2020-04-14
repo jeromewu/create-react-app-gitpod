@@ -33,4 +33,4 @@ export const PersonTest = (props) => {
 // styleRoot for media queries
 // styled componenets
 // css modules
-// error boundary
+// error boundary (componentdidcatch)

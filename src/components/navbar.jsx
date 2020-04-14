@@ -6,7 +6,7 @@ class Navbar extends navabarCom {
     return (
       <nav className="navbar navbar-light bg-light">
         <a className="navbar-brand" href="#">
-          Navbar
+        {this.props.title}
           <span className="badge badge-dark">{this.props.totalCounters}</span>
         </a>
       </nav>
