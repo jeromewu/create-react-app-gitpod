@@ -6,7 +6,12 @@ import Counters from "./components/counters";
 
 class App extends Component {
 
-    
+//     constructor(props){
+//     super(props);
+//     this.state = {
+//       data: 'Jordan Belfort'
+//     }
+//   }
     state = {
         counters: [
             { id: 1, value: 0 },
@@ -20,7 +25,7 @@ class App extends Component {
         const index = counters.indexOf(counter);
         counters[index] = { ...counter };
         counters[index].value++;
-        this.setState({ counters });
+        this.setState({ counters }); 
     };
     handleDelete = (counterId) => {
         const counters = this.state.counters.filter((c) => c.id !== counterId);
