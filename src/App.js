@@ -6,12 +6,18 @@ import Counters from "./components/counters";
 
 class App extends Component {
 
-//     constructor(props){
-//     super(props);
-//     this.state = {
-//       data: 'Jordan Belfort'
-//     }
-//   }
+// constructor(props) {
+//     console.log(props);
+//   super(props);
+//   this.state = {
+//        counters: [
+//             { id: 1, value: 0 },
+//             { id: 2, value: 9 },
+//             { id: 3, value: 3 },
+//             { id: 4, value: 1 },
+//         ]
+//   };
+// }
     state = {
         counters: [
             { id: 1, value: 0 },
@@ -19,6 +25,7 @@ class App extends Component {
             { id: 3, value: 3 },
             { id: 4, value: 1 },
         ],
+        raj: 'puducherry'
     };
     handleIncrement = (counter) => {
         const counters = [...this.state.counters];
@@ -48,6 +55,7 @@ class App extends Component {
                 <main className="container">
                     <Counters
                         counters={this.state.counters}
+                        raj={this.state.raj}
                         onReset={this.handleReset}
                         onIncrement={this.handleIncrement}
                         onDelete={this.handleDelete}

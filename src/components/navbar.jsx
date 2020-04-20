@@ -1,14 +1,24 @@
-import React, {Component as navabarCom}  from "react";
+import React, { Component as navabarCom } from "react";
 class Navbar extends navabarCom {
   //state = {  }
   // stateless functional component
+
+  //   constructor(props) {
+  //   super(props);
+  // //   this.state = {
+  // //        counters: [
+  // //             { id: 1, value: 0 },
+  // //             { id: 2, value: 9 },
+  // //             { id: 3, value: 3 },
+  // //             { id: 4, value: 1 },
+  // //         ]
+  // //   };
+  // }
   render() {
     return (
       <nav className="navbar navbar-light bg-light">
-        <a className="navbar-brand" href="#">
         {this.props.title}
-          <span className="badge badge-dark">{this.props.totalCounters}</span>
-        </a>
+        <span className="badge badge-dark">{this.props.totalCounters}</span>
       </nav>
     );
   }

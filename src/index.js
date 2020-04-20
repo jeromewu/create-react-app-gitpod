@@ -9,7 +9,7 @@ import "bootstrap/dist/css/bootstrap.css";
 //import Counters from "./components/counters";
 
 // below id the default one
-ReactDOM.render(<App title="This is title" />, document.getElementById("root"));
+ReactDOM.render(<App title="This is title test" />, document.getElementById("root"));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.

@@ -26,6 +26,7 @@ class Counter extends Component {
     //return <div>{this.renderTags()}</div>;
     return (
       <div>
+          <span>{this.props.rajmohan}</span>
         <span className={this.getBadgeClasses()}>{this.formatCounter()}</span>
         <button
           onClick={() => this.props.onIncrement(this.props.counter)}
