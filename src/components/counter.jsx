@@ -1,5 +1,5 @@
 import React, { Component } from "react"; // NAMED EXPORT NEED TO EXPORT ONLY WITH THE GIVEN NAME
-
+import auxillary from "../hoc/auxillary";
 
 class Counter extends Component {
   //   state = {
@@ -26,7 +26,7 @@ class Counter extends Component {
     //return <div>{this.renderTags()}</div>;
     return (
       <div>
-          <span>{this.props.rajmohan}</span>
+        <span>{this.props.rajmohan}</span>
         <span className={this.getBadgeClasses()}>{this.formatCounter()}</span>
         <button
           onClick={() => this.props.onIncrement(this.props.counter)}
