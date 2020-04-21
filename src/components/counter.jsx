@@ -1,5 +1,5 @@
 import React, { Component } from "react"; // NAMED EXPORT NEED TO EXPORT ONLY WITH THE GIVEN NAME
-import auxillary from "../hoc/auxillary";
+//import auxillary from "../hoc/auxillary";
 
 class Counter extends Component {
   //   state = {
